@@ -2,7 +2,7 @@
 
 Hugo Extended to support SCSS and other things.
 
-## Users
+## Usage
 
 Add yours open source:
 
