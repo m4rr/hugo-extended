@@ -28,8 +28,3 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${H
   mv hugo /usr/bin && \
   apk del wget ca-certificates && \
   rm /var/cache/apk/*
-
-
-COPY . /src
-WORKDIR /src
-RUN hugo
