@@ -1,10 +1,10 @@
 FROM alpine:3.8 as BUILD
 LABEL maintainer="m4rr (remarr+docker@gmail.com)"
 
-ENV HUGO_VERSION 0.57.2
+ENV HUGO_VERSION 0.74.3
 ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
-ENV GLIBC_VERSION 2.27-r0
+ENV GLIBC_VERSION 2.32-r0
 
 RUN set -x && \
   apk add --update wget ca-certificates libstdc++
